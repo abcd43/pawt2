@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insert Text using jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Insert text before the paragraph
+      $("p").before("<span>This is inserted before the paragraph.</span>");
+
+      // Insert text after the paragraph
+      $("p").after("<span>This is inserted after the paragraph.</span>");
+    });
+  </script>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+</body>
+</html>

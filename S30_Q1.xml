@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Bookstore>
+  <Category name="Yoga">
+    <Book>
+      <Book_Title>Light on Yoga</Book_Title>
+      <Book_Author>B.K.S. Iyengar
+</Book_Author>
+      <Book_Price>Rs.190</Book_Price>
+    </Book>
+    <Book>
+      <Book_Title>Yoga Mala</Book_Title>
+      <Book_Author>Sri K. Pattabhi </Book_Author>
+      <Book_Price>Rs.140</Book_Price>
+    </Book>
+  </Category>
+  <Category name="Story">
+    <Book>
+      <Book_Title>Yayati</Book_Title>
+      <Book_Author>V.S.Khandekar</Book_Author>
+      <Book_Price>Rs.200</Book_Price>
+    </Book>
+    <Book>
+      <Book_Title>Chhava</Book_Title>
+      <Book_Author>Shivaji Savant</Book_Author>
+      <Book_Price>Rs.400</Book_Price>
+    </Book>
+  </Category>
+  <Category name="Technical">
+    <Book>
+      <Book_Title>Web Technologies-2</Book_Title>
+      <Book_Author>Kalpana Joshi</Book_Author>
+      <Book_Price>Rs.120</Book_Price>
+    </Book>
+    <Book>
+      <Book_Title>Data Analytics</Book_Title>
+      <Book_Author>Poonam Ponde</Book_Author>
+      <Book_Price>Rs.110</Book_Price>
+    </Book>
+  </Category>
+</Bookstore>

@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+		function confirm(){	 
+		  var msg;
+
+			if (confirm("Exams are near, have you started preparing for ?") == true) {
+				msg = "Ok..You will Pass With Good Marks..Best Of Luck";
+			} else {
+				msg = "Ohh Shit... You  will be failed!";
+			}
+
+			document.getElementById("msg").innerHTML = msg; 
+		}
+    </script>
+</head>
+<body>
+	<input type="button" onclick="confirm()" value="Confirm">
+
+<!--	<button onclick="confirm()">Confirm</button> -->
+	<p id="msg"></p>
+</body>
+</html>

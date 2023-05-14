@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fibonacci Numbers</title>
+  <script>
+    function fibonacci()
+    {
+      var a = 0, b = 1, c;
+      var limit = 10; 
+
+      document.write(a);
+    for (var i = 2; i <= limit; i++) 
+    {
+        document.write(b);
+        c = a + b;
+        a = b;
+        b = c;
+    }
+          var output = "";
+      for (var i = 0; i < fibonacci.length; i++) {
+        output += fibonacci[i] + " ";
+      }
+
+      document.getElementById("fibonacci").innerHTML = output;
+
+    /*  for (var i = 2; i < limit; i++)
+      {
+        fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+      }
+
+      var output = "";
+      for (var i = 0; i < fibonacci.length; i++) {
+        output += fibonacci[i] + " ";
+      }
+
+      document.getElementById("fibonacci").innerHTML = output;
+    }*/
+
+  </script>
+</head>
+<body>
+  <h1>Fibonacci Numbers</h1>
+  <button onclick="fibonacci()">Print Fibonacci Numbers</button>
+  <div id="fibonacci"></div>
+</body>
+</html>
+

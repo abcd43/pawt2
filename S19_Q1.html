@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Login</title>
+  <script>
+    function validateUser() {
+      var username = document.forms["loginForm"]["username"].value;
+      var password = document.forms["loginForm"]["password"].value;
+
+      if (username === "user" || password === "123") 
+      {
+        alert("validate user");
+        return true;
+      }
+      else
+        alert("Not validate user");
+        return false;
+    }
+  </script>
+</head>
+<body>
+  <h2>User Login</h2>
+  <form name="loginForm" onsubmit="return validateUser()">
+    <label >Username:</label>
+    <input type="text" name="username" id="username">
+
+    <label >Password:</label>
+    <input type="password" name="password" id="password">
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

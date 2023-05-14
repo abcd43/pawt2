@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Itemlist>
+<Item>
+	<ItemName>Apple</ItemName>
+	<ItemPrice> 200</ItemPrice>
+	<Quantity>11</Quantity>
+</Item>
+<Item>
+	<ItemName>Orange</ItemName>
+	<ItemPrice> 90</ItemPrice>
+	<Quantity>13</Quantity>
+</Item>
+<Item>
+	<ItemName>Banana</ItemName>
+	<ItemPrice> 360</ItemPrice>
+	<Quantity>3</Quantity>
+</Item>
+<Item>
+	<ItemName> Mango</ItemName>
+	<ItemPrice> 120</ItemPrice>
+	<Quantity>14</Quantity>
+</Item>
+
+<Item>
+	<ItemName> Pineapple</ItemName>
+	<ItemPrice> 170</ItemPrice>
+	<Quantity>3</Quantity>
+</Item>
+</Itemlist>
